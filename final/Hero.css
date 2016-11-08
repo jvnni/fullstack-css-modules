@@ -1,0 +1,29 @@
+.hero {
+  min-height: 36em;
+  text-align: center;
+  background-color: var(--gray-200);
+  background-image: url('../images/build-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.heroTitle {
+  padding: 4em 1em 0.5em;
+  color: #fff;
+  font-size: 11vw;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .heroTitle {
+    padding: 41vh 0 1rem;
+    font-size: 3.5em;
+  }
+}
