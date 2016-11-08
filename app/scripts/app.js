@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hero from './components/Hero/Hero';
-import Highlights from './components/Highlights/Highlights';
+import Hero from './components/hero/Hero';
+import Highlights from './components/highlights/Highlights';
 
 const App = function render() {
   return (
